@@ -46,39 +46,6 @@ The optimal level of AI assistance varies by project, team, and organizational c
 - Adapt their approach as project needs evolve
 - Implement AI assistance in a strategic, phased manner
 
-## 🖥️ About This Website
-
-This documentation site is built with:
-
-- [Next.js](https://nextjs.org/) - React framework for production
-- [TailwindCSS](https://tailwindcss.com/) - Utility-first CSS framework
-- [shadcn/ui](https://ui.shadcn.com/) - Re-usable components built with Radix UI and Tailwind
-- [next-themes](https://github.com/pacocoursey/next-themes) - Theme management
-
-## 🛠️ Local Development
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/atlas-framework.git
-
-# Navigate to the directory
-cd atlas-framework
-
-# Install dependencies
-npm install --legacy-peer-deps
-
-# Start the development server
-npm run dev
-```
-
-## 📱 Deployment
-
-This site is deployed as a static site on GitHub Pages. To deploy your own version:
-
-1. Fork this repository
-2. Enable GitHub Pages in your repository settings
-3. Push changes to the master branch to trigger automatic deployment
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -90,6 +57,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ---
 
 <div align="center">
-  <p>Developed with ❤️ by <a href="https://github.com/yourusername">Your Name</a></p>
+  <p>Developed with ❤️ by <a href="https://github.com/SoftoDev">Softo</a></p>
   <p>© 2025 ATLAS Framework</p>
 </div>
