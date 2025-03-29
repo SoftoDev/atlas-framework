@@ -48,7 +48,7 @@ The optimal level of AI assistance varies by project, team, and organizational c
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🤝 Contributing
 
