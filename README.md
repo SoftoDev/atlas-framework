@@ -5,7 +5,7 @@
   <img src="public/images/atlas-framework-logo.png" alt="ATLAS Framework Logo" width="300" />
   <br/><br/>
   <p><em>A structured approach for determining the optimal level of AI assistance for software development projects</em></p>
-  <p>[![ATLAS Framework Level](https://img.shields.io/badge/ATLAS_Framework-Level_7-B1FBD5)](https://atlas-framework.com/levels/#level7)</p>
+  <p><img src="https://img.shields.io/badge/ATLAS_Framework-Level_7-B1FBD5" /></p>
 </div>
 
 ## 📋 Overview
