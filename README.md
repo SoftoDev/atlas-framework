@@ -54,5 +54,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
   <p>Developed with ❤️ by <a href="https://github.com/SoftoDev">Softo</a></p>
-  <p>© 2025 ATLAS Framework</p>
+  <p>© 2025 Softo, LLC and Softo Serviços LTDA</p>
 </div>
