@@ -13,7 +13,7 @@
 The ATLAS Framework defines 8 levels of AI integration in software development, ranging from fully manual coding to complete application generation from natural language prompts. By evaluating specific project characteristics against defined criteria, teams can select the most appropriate development approach along the spectrum from traditional coding to AI-driven development.
 
 <div align="center">
-  <img src="public/images/atlas-framework-levels-infographic.png" alt="ATLAS Framework Levels" width="800" />
+  <img src="public/images/atlas-framework-levels-infographic-light.png" alt="ATLAS Framework Levels" width="800" />
 </div>
 
 ## 🏗️ Framework Components

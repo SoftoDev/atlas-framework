@@ -49,15 +49,15 @@ export default function ResourcesPage() {
                 />
               </div>
               <div className="relative">
-                <pre className="bg-gray-100 p-2 rounded text-xs whitespace-pre-wrap overflow-y-auto">
+                <pre className="bg-gray-100 dark:bg-gray-800 p-2 rounded text-xs text-gray-800 dark:text-gray-200 whitespace-pre-wrap overflow-y-auto">
                   [![ATLAS Framework
-                  Level](https://img.shields.io/badge/ATLAS_Framework-Level_0-003538)](https://atlas-framework.com/levels/#level0)
+                  Level](https://img.shields.io/badge/ATLAS_Framework-Level_0-003538)](https://atlas-framework.com/levels#level0)
                 </pre>
                 <button
-                  className="absolute top-2 right-2 p-1 bg-white rounded-md hover:bg-gray-200 transition-colors"
+                  className="absolute top-2 right-2 p-1 bg-white dark:bg-gray-700 rounded-md hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
                   onClick={() =>
                     copyToClipboard(
-                      "[![ATLAS Framework Level](https://img.shields.io/badge/ATLAS_Framework-Level_0-003538)](https://atlas-framework.com/levels/#level0)",
+                      "[![ATLAS Framework Level](https://img.shields.io/badge/ATLAS_Framework-Level_0-003538)](https://atlas-framework.com/levels#level0)",
                       "level0",
                     )
                   }
@@ -83,15 +83,15 @@ export default function ResourcesPage() {
                 />
               </div>
               <div className="relative">
-                <pre className="bg-gray-100 p-2 rounded text-xs whitespace-pre-wrap overflow-y-auto">
+                <pre className="bg-gray-100 dark:bg-gray-800 p-2 rounded text-xs text-gray-800 dark:text-gray-200 whitespace-pre-wrap overflow-y-auto">
                   [![ATLAS Framework
-                  Level](https://img.shields.io/badge/ATLAS_Framework-Level_1-003538)](https://atlas-framework.com/levels/#level1)
+                  Level](https://img.shields.io/badge/ATLAS_Framework-Level_1-003538)](https://atlas-framework.com/levels#level1)
                 </pre>
                 <button
-                  className="absolute top-2 right-2 p-1 bg-white rounded-md hover:bg-gray-200 transition-colors"
+                  className="absolute top-2 right-2 p-1 bg-white dark:bg-gray-700 rounded-md hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
                   onClick={() =>
                     copyToClipboard(
-                      "[![ATLAS Framework Level](https://img.shields.io/badge/ATLAS_Framework-Level_1-003538)](https://atlas-framework.com/levels/#level1)",
+                      "[![ATLAS Framework Level](https://img.shields.io/badge/ATLAS_Framework-Level_1-003538)](https://atlas-framework.com/levels#level1)",
                       "level1",
                     )
                   }
@@ -117,15 +117,15 @@ export default function ResourcesPage() {
                 />
               </div>
               <div className="relative">
-                <pre className="bg-gray-100 p-2 rounded text-xs whitespace-pre-wrap overflow-y-auto">
+                <pre className="bg-gray-100 dark:bg-gray-800 p-2 rounded text-xs text-gray-800 dark:text-gray-200 whitespace-pre-wrap overflow-y-auto">
                   [![ATLAS Framework
-                  Level](https://img.shields.io/badge/ATLAS_Framework-Level_2-004340)](https://atlas-framework.com/levels/#level2)
+                  Level](https://img.shields.io/badge/ATLAS_Framework-Level_2-004340)](https://atlas-framework.com/levels#level2)
                 </pre>
                 <button
-                  className="absolute top-2 right-2 p-1 bg-white rounded-md hover:bg-gray-200 transition-colors"
+                  className="absolute top-2 right-2 p-1 bg-white dark:bg-gray-700 rounded-md hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
                   onClick={() =>
                     copyToClipboard(
-                      "[![ATLAS Framework Level](https://img.shields.io/badge/ATLAS_Framework-Level_2-004340)](https://atlas-framework.com/levels/#level2)",
+                      "[![ATLAS Framework Level](https://img.shields.io/badge/ATLAS_Framework-Level_2-004340)](https://atlas-framework.com/levels#level2)",
                       "level2",
                     )
                   }
@@ -151,15 +151,15 @@ export default function ResourcesPage() {
                 />
               </div>
               <div className="relative">
-                <pre className="bg-gray-100 p-2 rounded text-xs whitespace-pre-wrap overflow-y-auto">
+                <pre className="bg-gray-100 dark:bg-gray-800 p-2 rounded text-xs text-gray-800 dark:text-gray-200 whitespace-pre-wrap overflow-y-auto">
                   [![ATLAS Framework
-                  Level](https://img.shields.io/badge/ATLAS_Framework-Level_3-085B51)](https://atlas-framework.com/levels/#level3)
+                  Level](https://img.shields.io/badge/ATLAS_Framework-Level_3-085B51)](https://atlas-framework.com/levels#level3)
                 </pre>
                 <button
-                  className="absolute top-2 right-2 p-1 bg-white rounded-md hover:bg-gray-200 transition-colors"
+                  className="absolute top-2 right-2 p-1 bg-white dark:bg-gray-700 rounded-md hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
                   onClick={() =>
                     copyToClipboard(
-                      "[![ATLAS Framework Level](https://img.shields.io/badge/ATLAS_Framework-Level_3-085B51)](https://atlas-framework.com/levels/#level3)",
+                      "[![ATLAS Framework Level](https://img.shields.io/badge/ATLAS_Framework-Level_3-085B51)](https://atlas-framework.com/levels#level3)",
                       "level3",
                     )
                   }
@@ -185,15 +185,15 @@ export default function ResourcesPage() {
                 />
               </div>
               <div className="relative">
-                <pre className="bg-gray-100 p-2 rounded text-xs whitespace-pre-wrap overflow-y-auto">
+                <pre className="bg-gray-100 dark:bg-gray-800 p-2 rounded text-xs text-gray-800 dark:text-gray-200 whitespace-pre-wrap overflow-y-auto">
                   [![ATLAS Framework
-                  Level](https://img.shields.io/badge/ATLAS_Framework-Level_4-26947C)](https://atlas-framework.com/levels/#level4)
+                  Level](https://img.shields.io/badge/ATLAS_Framework-Level_4-26947C)](https://atlas-framework.com/levels#level4)
                 </pre>
                 <button
-                  className="absolute top-2 right-2 p-1 bg-white rounded-md hover:bg-gray-200 transition-colors"
+                  className="absolute top-2 right-2 p-1 bg-white dark:bg-gray-700 rounded-md hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
                   onClick={() =>
                     copyToClipboard(
-                      "[![ATLAS Framework Level](https://img.shields.io/badge/ATLAS_Framework-Level_4-26947C)](https://atlas-framework.com/levels/#level4)",
+                      "[![ATLAS Framework Level](https://img.shields.io/badge/ATLAS_Framework-Level_4-26947C)](https://atlas-framework.com/levels#level4)",
                       "level4",
                     )
                   }
@@ -219,15 +219,15 @@ export default function ResourcesPage() {
                 />
               </div>
               <div className="relative">
-                <pre className="bg-gray-100 p-2 rounded text-xs whitespace-pre-wrap overflow-y-auto">
+                <pre className="bg-gray-100 dark:bg-gray-800 p-2 rounded text-xs text-gray-800 dark:text-gray-200 whitespace-pre-wrap overflow-y-auto">
                   [![ATLAS Framework
-                  Level](https://img.shields.io/badge/ATLAS_Framework-Level_5-52C9A4)](https://atlas-framework.com/levels/#level5)
+                  Level](https://img.shields.io/badge/ATLAS_Framework-Level_5-52C9A4)](https://atlas-framework.com/levels#level5)
                 </pre>
                 <button
-                  className="absolute top-2 right-2 p-1 bg-white rounded-md hover:bg-gray-200 transition-colors"
+                  className="absolute top-2 right-2 p-1 bg-white dark:bg-gray-700 rounded-md hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
                   onClick={() =>
                     copyToClipboard(
-                      "[![ATLAS Framework Level](https://img.shields.io/badge/ATLAS_Framework-Level_5-52C9A4)](https://atlas-framework.com/levels/#level5)",
+                      "[![ATLAS Framework Level](https://img.shields.io/badge/ATLAS_Framework-Level_5-52C9A4)](https://atlas-framework.com/levels#level5)",
                       "level5",
                     )
                   }
@@ -253,15 +253,15 @@ export default function ResourcesPage() {
                 />
               </div>
               <div className="relative">
-                <pre className="bg-gray-100 p-2 rounded text-xs whitespace-pre-wrap overflow-y-auto">
+                <pre className="bg-gray-100 dark:bg-gray-800 p-2 rounded text-xs text-gray-800 dark:text-gray-200 whitespace-pre-wrap overflow-y-auto">
                   [![ATLAS Framework
-                  Level](https://img.shields.io/badge/ATLAS_Framework-Level_6-8FEDC7)](https://atlas-framework.com/levels/#level6)
+                  Level](https://img.shields.io/badge/ATLAS_Framework-Level_6-8FEDC7)](https://atlas-framework.com/levels#level6)
                 </pre>
                 <button
-                  className="absolute top-2 right-2 p-1 bg-white rounded-md hover:bg-gray-200 transition-colors"
+                  className="absolute top-2 right-2 p-1 bg-white dark:bg-gray-700 rounded-md hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
                   onClick={() =>
                     copyToClipboard(
-                      "[![ATLAS Framework Level](https://img.shields.io/badge/ATLAS_Framework-Level_6-8FEDC7)](https://atlas-framework.com/levels/#level6)",
+                      "[![ATLAS Framework Level](https://img.shields.io/badge/ATLAS_Framework-Level_6-8FEDC7)](https://atlas-framework.com/levels#level6)",
                       "level6",
                     )
                   }
@@ -287,15 +287,15 @@ export default function ResourcesPage() {
                 />
               </div>
               <div className="relative">
-                <pre className="bg-gray-100 p-2 rounded text-xs whitespace-pre-wrap overflow-y-auto">
+                <pre className="bg-gray-100 dark:bg-gray-800 p-2 rounded text-xs text-gray-800 dark:text-gray-200 whitespace-pre-wrap overflow-y-auto">
                   [![ATLAS Framework
-                  Level](https://img.shields.io/badge/ATLAS_Framework-Level_7-B1FBD5)](https://atlas-framework.com/levels/#level7)
+                  Level](https://img.shields.io/badge/ATLAS_Framework-Level_7-B1FBD5)](https://atlas-framework.com/levels#level7)
                 </pre>
                 <button
-                  className="absolute top-2 right-2 p-1 bg-white rounded-md hover:bg-gray-200 transition-colors"
+                  className="absolute top-2 right-2 p-1 bg-white dark:bg-gray-700 rounded-md hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
                   onClick={() =>
                     copyToClipboard(
-                      "[![ATLAS Framework Level](https://img.shields.io/badge/ATLAS_Framework-Level_7-B1FBD5)](https://atlas-framework.com/levels/#level7)",
+                      "[![ATLAS Framework Level](https://img.shields.io/badge/ATLAS_Framework-Level_7-B1FBD5)](https://atlas-framework.com/levels#level7)",
                       "level7",
                     )
                   }
@@ -326,7 +326,7 @@ export default function ResourcesPage() {
                   href="https://github.com/features/copilot"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-emerald-700 hover:text-emerald-900 hover:underline dark:text-emerald-400 dark:hover:text-emerald-300"
                 >
                   GitHub Copilot
                 </a>{" "}
@@ -337,7 +337,7 @@ export default function ResourcesPage() {
                   href="https://cursor.sh"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-emerald-700 hover:text-emerald-900 hover:underline dark:text-emerald-400 dark:hover:text-emerald-300"
                 >
                   Cursor
                 </a>{" "}
@@ -348,7 +348,7 @@ export default function ResourcesPage() {
                   href="https://codeium.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-emerald-700 hover:text-emerald-900 hover:underline dark:text-emerald-400 dark:hover:text-emerald-300"
                 >
                   Codeium
                 </a>{" "}
@@ -359,7 +359,7 @@ export default function ResourcesPage() {
                   href="https://www.tabnine.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-emerald-700 hover:text-emerald-900 hover:underline dark:text-emerald-400 dark:hover:text-emerald-300"
                 >
                   Tabnine
                 </a>{" "}
@@ -370,7 +370,7 @@ export default function ResourcesPage() {
                   href="https://aws.amazon.com/codewhisperer/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-emerald-700 hover:text-emerald-900 hover:underline dark:text-emerald-400 dark:hover:text-emerald-300"
                 >
                   Amazon CodeWhisperer
                 </a>{" "}
@@ -381,7 +381,7 @@ export default function ResourcesPage() {
                   href="https://www.jetbrains.com/ai/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-emerald-700 hover:text-emerald-900 hover:underline dark:text-emerald-400 dark:hover:text-emerald-300"
                 >
                   JetBrains AI Assistant
                 </a>{" "}
@@ -392,7 +392,7 @@ export default function ResourcesPage() {
                   href="https://claude.ai/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-emerald-700 hover:text-emerald-900 hover:underline dark:text-emerald-400 dark:hover:text-emerald-300"
                 >
                   Anthropic Claude
                 </a>{" "}
@@ -413,7 +413,7 @@ export default function ResourcesPage() {
                   href="https://powerapps.microsoft.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-emerald-700 hover:text-emerald-900 hover:underline dark:text-emerald-400 dark:hover:text-emerald-300"
                 >
                   Microsoft Power Platform
                 </a>{" "}
@@ -424,7 +424,7 @@ export default function ResourcesPage() {
                   href="https://www.appsmith.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-emerald-700 hover:text-emerald-900 hover:underline dark:text-emerald-400 dark:hover:text-emerald-300"
                 >
                   Appsmith
                 </a>{" "}
@@ -435,7 +435,7 @@ export default function ResourcesPage() {
                   href="https://www.outsystems.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-emerald-700 hover:text-emerald-900 hover:underline dark:text-emerald-400 dark:hover:text-emerald-300"
                 >
                   OutSystems
                 </a>{" "}
@@ -446,7 +446,7 @@ export default function ResourcesPage() {
                   href="https://www.mendix.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-emerald-700 hover:text-emerald-900 hover:underline dark:text-emerald-400 dark:hover:text-emerald-300"
                 >
                   Mendix
                 </a>{" "}
@@ -457,7 +457,7 @@ export default function ResourcesPage() {
                   href="https://bolt.new"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-emerald-700 hover:text-emerald-900 hover:underline dark:text-emerald-400 dark:hover:text-emerald-300"
                 >
                   Bolt.new
                 </a>{" "}
@@ -468,7 +468,7 @@ export default function ResourcesPage() {
                   href="https://www.lovable.ai"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-emerald-700 hover:text-emerald-900 hover:underline dark:text-emerald-400 dark:hover:text-emerald-300"
                 >
                   Lovable
                 </a>{" "}
@@ -479,7 +479,7 @@ export default function ResourcesPage() {
                   href="https://v0.dev"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-emerald-700 hover:text-emerald-900 hover:underline dark:text-emerald-400 dark:hover:text-emerald-300"
                 >
                   v0
                 </a>{" "}
@@ -502,7 +502,7 @@ export default function ResourcesPage() {
                   href="https://mintlify.com/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-emerald-700 hover:text-emerald-900 hover:underline dark:text-emerald-400 dark:hover:text-emerald-300"
                 >
                   Mintlify
                 </a>{" "}
@@ -513,7 +513,7 @@ export default function ResourcesPage() {
                   href="https://swimm.io/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-emerald-700 hover:text-emerald-900 hover:underline dark:text-emerald-400 dark:hover:text-emerald-300"
                 >
                   Swimm
                 </a>{" "}
@@ -524,7 +524,7 @@ export default function ResourcesPage() {
                   href="https://www.sonarqube.org/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-emerald-700 hover:text-emerald-900 hover:underline dark:text-emerald-400 dark:hover:text-emerald-300"
                 >
                   SonarQube with AI
                 </a>{" "}
@@ -535,7 +535,7 @@ export default function ResourcesPage() {
                   href="https://sdlcgenius.com/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-emerald-700 hover:text-emerald-900 hover:underline dark:text-emerald-400 dark:hover:text-emerald-300"
                 >
                   SDLC Genius
                 </a>{" "}
@@ -556,7 +556,7 @@ export default function ResourcesPage() {
                   href="https://github.com/AntonOsika/gpt-engineer"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-emerald-700 hover:text-emerald-900 hover:underline dark:text-emerald-400 dark:hover:text-emerald-300"
                 >
                   GPT Engineer
                 </a>{" "}
@@ -567,7 +567,7 @@ export default function ResourcesPage() {
                   href="https://github.com/smol-ai/developer"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-emerald-700 hover:text-emerald-900 hover:underline dark:text-emerald-400 dark:hover:text-emerald-300"
                 >
                   Smol Developer
                 </a>{" "}
@@ -578,7 +578,7 @@ export default function ResourcesPage() {
                   href="https://www.cognition-labs.com/devin"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-emerald-700 hover:text-emerald-900 hover:underline dark:text-emerald-400 dark:hover:text-emerald-300"
                 >
                   Devin
                 </a>{" "}
@@ -589,7 +589,7 @@ export default function ResourcesPage() {
                   href="https://claude.ai/claude-code"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:underline"
+                  className="text-emerald-700 hover:text-emerald-900 hover:underline dark:text-emerald-400 dark:hover:text-emerald-300"
                 >
                   Claude Code
                 </a>{" "}
@@ -611,7 +611,7 @@ export default function ResourcesPage() {
                 href="https://code.visualstudio.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-600 hover:underline"
+                className="text-emerald-700 hover:text-emerald-900 hover:underline dark:text-emerald-400 dark:hover:text-emerald-300"
               >
                 Visual Studio Code
               </a>{" "}
@@ -622,7 +622,7 @@ export default function ResourcesPage() {
                 href="https://www.eclipse.org/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-600 hover:underline"
+                className="text-emerald-700 hover:text-emerald-900 hover:underline dark:text-emerald-400 dark:hover:text-emerald-300"
               >
                 Eclipse
               </a>{" "}
@@ -633,7 +633,7 @@ export default function ResourcesPage() {
                 href="https://git-scm.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-600 hover:underline"
+                className="text-emerald-700 hover:text-emerald-900 hover:underline dark:text-emerald-400 dark:hover:text-emerald-300"
               >
                 Git
               </a>{" "}
@@ -644,7 +644,7 @@ export default function ResourcesPage() {
                 href="https://junit.org/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-600 hover:underline"
+                className="text-emerald-700 hover:text-emerald-900 hover:underline dark:text-emerald-400 dark:hover:text-emerald-300"
               >
                 Testing Frameworks
               </a>{" "}
@@ -666,7 +666,7 @@ export default function ResourcesPage() {
               href="https://github.com/SoftoDev/atlas-framework"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:underline inline-flex items-center gap-1"
+              className="text-emerald-700 hover:text-emerald-900 hover:underline dark:text-emerald-400 dark:hover:text-emerald-300 inline-flex items-center gap-1"
             >
               <Github className="h-4 w-4" />
               GitHub Repository

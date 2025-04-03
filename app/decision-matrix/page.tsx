@@ -1,144 +1,423 @@
 import type { Metadata } from "next"
-import Image from "next/image"
 
 export const metadata: Metadata = {
-  title: "Decision Matrix | ATLAS Framework",
+  title: "ATLAS | Decision Matrix",
   description: "A structured approach to selecting the appropriate AI assistance level for your software project",
 }
 
 export default function DecisionMatrix() {
   return (
-    <div className="max-w-3xl mx-auto">
+    <div className="max-w-5xl mx-auto">
       <h1 className="text-4xl font-bold mb-6">Decision Matrix</h1>
       <p className="text-xl mb-6">
         To aid in choosing the ideal level of AI assistance, this matrix relates key decision factors to the AI level
         that best suits your project's situation.
       </p>
 
-      <div className="mb-8">
-        <Image
-          src="/images/atlas-framework-decision-matrix.png"
-          alt="ATLAS Framework Decision Matrix"
-          width={1000}
-          height={450}
-          className="rounded-lg shadow-md w-full"
-          priority
-        />
+      <div className="mb-8 overflow-x-auto">
+        <table className="w-full border-collapse text-sm table-fixed">
+          <thead>
+            <tr>
+              <th className="border border-gray-300 dark:border-gray-700 bg-gray-100 dark:bg-gray-800 p-3 text-left w-[20%] text-lg font-semibold">
+                Decision Factor
+              </th>
+              <th className="border border-gray-300 dark:border-gray-700 bg-[#003B36] text-white p-3 text-center w-[10%]">
+                <div className="text-[#C5F74F] font-bold">LEVEL 0</div>
+                <div className="font-normal">Pure Code Forge</div>
+              </th>
+              <th className="border border-gray-300 dark:border-gray-700 bg-[#004D47] text-white p-3 text-center w-[10%]">
+                <div className="text-[#C5F74F] font-bold">LEVEL 1</div>
+                <div className="font-normal">Insight Engine</div>
+              </th>
+              <th className="border border-gray-300 dark:border-gray-700 bg-[#005F58] text-white p-3 text-center w-[10%]">
+                <div className="text-[#C5F74F] font-bold">LEVEL 2</div>
+                <div className="font-normal">Specific Boost</div>
+              </th>
+              <th className="border border-gray-300 dark:border-gray-700 bg-[#007169] text-white p-3 text-center w-[10%]">
+                <div className="text-[#C5F74F] font-bold">LEVEL 3</div>
+                <div className="font-normal">Code Accelerator</div>
+              </th>
+              <th className="border border-gray-300 dark:border-gray-700 bg-[#00837A] text-white p-3 text-center w-[10%]">
+                <div className="text-[#C5F74F] font-bold">LEVEL 4</div>
+                <div className="font-normal">Blueprint Amplifier</div>
+              </th>
+              <th className="border border-gray-300 dark:border-gray-700 bg-[#00958B] text-white p-3 text-center w-[10%]">
+                <div className="text-[#C5F74F] font-bold">LEVEL 5</div>
+                <div className="font-normal">Component Reactor</div>
+              </th>
+              <th className="border border-gray-300 dark:border-gray-700 bg-[#7FDFD5] text-[#003B36] p-3 text-center dark:bg-[#00958B] dark:text-white w-[10%]">
+                <div className="text-[#003B36] font-bold dark:text-[#C5F74F]">LEVEL 6</div>
+                <div className="font-normal dark:text-[#C5F74F]">Visual Symphony</div>
+              </th>
+              <th className="border border-gray-300 dark:border-gray-700 bg-[#7FDFD5] text-[#003B36] p-3 text-center dark:bg-[#00958B] dark:text-white w-[10%]">
+                <div className="text-[#003B36] font-bold dark:text-[#C5F74F]">LEVEL 7</div>
+                <div className="font-normal dark:text-[#C5F74F]">Prompt-to-Product</div>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {/* Security & Compliance */}
+            <tr>
+              <td className="border border-gray-300 dark:border-gray-700 bg-gray-100 dark:bg-gray-800 p-3 font-medium">
+                Critical Security and Compliance Requirements
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center bg-[#F0FFCF] dark:bg-[#2A3A2F]">
+                <span className="inline-block w-6 h-6 bg-[#52C9A4] rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center bg-[#F0FFCF] dark:bg-[#2A3A2F]">
+                <span className="inline-block w-6 h-6 bg-[#52C9A4] rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center bg-[#F0FFCF] dark:bg-[#2A3A2F]">
+                <span className="inline-block w-6 h-6 bg-[#52C9A4] rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center">
+                <span className="inline-block w-6 h-6 bg-yellow-500 rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center">
+                <span className="inline-block w-6 h-6 bg-yellow-500 rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center">
+                <span className="inline-block w-6 h-6 bg-yellow-500 rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center">
+                <span className="inline-block w-6 h-6 bg-red-500 rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center">
+                <span className="inline-block w-6 h-6 bg-red-500 rounded-full"></span>
+              </td>
+            </tr>
+
+            {/* Project Complexity */}
+            <tr>
+              <td className="border border-gray-300 dark:border-gray-700 bg-gray-100 dark:bg-gray-800 p-3 font-medium">
+                High Project Complexity
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center bg-[#F0FFCF] dark:bg-[#2A3A2F]">
+                <span className="inline-block w-6 h-6 bg-[#52C9A4] rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center bg-[#F0FFCF] dark:bg-[#2A3A2F]">
+                <span className="inline-block w-6 h-6 bg-[#52C9A4] rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center bg-[#F0FFCF] dark:bg-[#2A3A2F]">
+                <span className="inline-block w-6 h-6 bg-[#52C9A4] rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center bg-[#F0FFCF] dark:bg-[#2A3A2F]">
+                <span className="inline-block w-6 h-6 bg-[#52C9A4] rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center">
+                <span className="inline-block w-6 h-6 bg-yellow-500 rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center">
+                <span className="inline-block w-6 h-6 bg-yellow-500 rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center">
+                <span className="inline-block w-6 h-6 bg-red-500 rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center">
+                <span className="inline-block w-6 h-6 bg-red-500 rounded-full"></span>
+              </td>
+            </tr>
+
+            {/* Team AI Proficiency */}
+            <tr>
+              <td className="border border-gray-300 dark:border-gray-700 bg-gray-100 dark:bg-gray-800 p-3 font-medium">
+                Limited Team AI Proficiency
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center bg-[#F0FFCF] dark:bg-[#2A3A2F]">
+                <span className="inline-block w-6 h-6 bg-[#52C9A4] rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center bg-[#F0FFCF] dark:bg-[#2A3A2F]">
+                <span className="inline-block w-6 h-6 bg-[#52C9A4] rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center">
+                <span className="inline-block w-6 h-6 bg-yellow-500 rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center">
+                <span className="inline-block w-6 h-6 bg-yellow-500 rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center">
+                <span className="inline-block w-6 h-6 bg-yellow-500 rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center">
+                <span className="inline-block w-6 h-6 bg-red-500 rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center bg-[#F0FFCF] dark:bg-[#2A3A2F]">
+                <span className="inline-block w-6 h-6 bg-[#52C9A4] rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center bg-[#F0FFCF] dark:bg-[#2A3A2F]">
+                <span className="inline-block w-6 h-6 bg-[#52C9A4] rounded-full"></span>
+              </td>
+            </tr>
+
+            {/* Development Speed Priority */}
+            <tr>
+              <td className="border border-gray-300 dark:border-gray-700 bg-gray-100 dark:bg-gray-800 p-3 font-medium">
+                High Development Speed Priority
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center">
+                <span className="inline-block w-6 h-6 bg-red-500 rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center">
+                <span className="inline-block w-6 h-6 bg-red-500 rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center">
+                <span className="inline-block w-6 h-6 bg-yellow-500 rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center">
+                <span className="inline-block w-6 h-6 bg-yellow-500 rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center">
+                <span className="inline-block w-6 h-6 bg-yellow-500 rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center bg-[#F0FFCF] dark:bg-[#2A3A2F]">
+                <span className="inline-block w-6 h-6 bg-[#52C9A4] rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center bg-[#F0FFCF] dark:bg-[#2A3A2F]">
+                <span className="inline-block w-6 h-6 bg-[#52C9A4] rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center bg-[#F0FFCF] dark:bg-[#2A3A2F]">
+                <span className="inline-block w-6 h-6 bg-[#52C9A4] rounded-full"></span>
+              </td>
+            </tr>
+
+            {/* Long-term Maintenance */}
+            <tr>
+              <td className="border border-gray-300 dark:border-gray-700 bg-gray-100 dark:bg-gray-800 p-3 font-medium">
+                Long-term Maintenance Considerations
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center bg-[#F0FFCF] dark:bg-[#2A3A2F]">
+                <span className="inline-block w-6 h-6 bg-[#52C9A4] rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center bg-[#F0FFCF] dark:bg-[#2A3A2F]">
+                <span className="inline-block w-6 h-6 bg-[#52C9A4] rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center bg-[#F0FFCF] dark:bg-[#2A3A2F]">
+                <span className="inline-block w-6 h-6 bg-[#52C9A4] rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center bg-[#F0FFCF] dark:bg-[#2A3A2F]">
+                <span className="inline-block w-6 h-6 bg-[#52C9A4] rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center bg-[#F0FFCF] dark:bg-[#2A3A2F]">
+                <span className="inline-block w-6 h-6 bg-[#52C9A4] rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center">
+                <span className="inline-block w-6 h-6 bg-yellow-500 rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center">
+                <span className="inline-block w-6 h-6 bg-yellow-500 rounded-full"></span>
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 text-center">
+                <span className="inline-block w-6 h-6 bg-red-500 rounded-full"></span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div className="flex items-center justify-center gap-8 mb-8">
+        <div className="flex items-center gap-2">
+          <span className="inline-block w-6 h-6 bg-[#52C9A4] rounded-full"></span>
+          <span>Recommended</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <span className="inline-block w-6 h-6 bg-yellow-500 rounded-full"></span>
+          <span>Consider with caution</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <span className="inline-block w-6 h-6 bg-red-500 rounded-full"></span>
+          <span>Not recommended</span>
+        </div>
       </div>
 
       <p className="mb-4">
         When selecting the appropriate level of AI assistance, evaluate your project against these key dimensions:
       </p>
 
-      <h2 className="text-2xl font-semibold mt-8 mb-4">1. Security and Compliance Requirements</h2>
-      <div className="bg-gray-100 p-5 rounded-md mb-6">
-        <div className="grid grid-cols-2 gap-4">
-          <div className="bg-white p-4 rounded shadow-sm">
-            <h3 className="font-semibold mb-2 text-[#1A3234]">High</h3>
-            <p>Prefer Levels 0-2 (Pure Code Forge to Specific Boost)</p>
-            <p className="text-sm text-gray-600 mt-2">For defense, healthcare, financial systems</p>
-          </div>
-          <div className="bg-white p-4 rounded shadow-sm">
-            <h3 className="font-semibold mb-2 text-[#1A3234]">Moderate</h3>
-            <p>Consider Levels 3-5 (Code Accelerator to Component Reactor)</p>
-            <p className="text-sm text-gray-600 mt-2">For business applications with some sensitive data</p>
-          </div>
-          <div className="bg-white p-4 rounded shadow-sm col-span-2">
-            <h3 className="font-semibold mb-2 text-[#1A3234]">Low</h3>
-            <p>All levels possible, including 6-7 (Visual Symphony to Prompt-to-Product)</p>
-            <p className="text-sm text-gray-600 mt-2">For internal tools, prototypes, non-sensitive applications</p>
-          </div>
-        </div>
-      </div>
+      <div className="mb-8 overflow-x-auto">
+        <table className="w-full border-collapse text-sm">
+          <thead>
+            <tr>
+              <th
+                className="border border-gray-300 dark:border-gray-700 bg-[#1A3234] text-white p-3 text-left"
+                colSpan={3}
+              >
+                Decision Factors and Recommended Levels
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {/* Security and Compliance Requirements */}
+            <tr>
+              <td
+                className="border border-gray-300 dark:border-gray-700 bg-gray-100 dark:bg-gray-800 p-3 font-medium"
+                rowSpan={3}
+              >
+                Security and Compliance Requirements
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 font-medium">High</td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3">
+                Prefer Levels 0-2
+                <p className="text-sm text-gray-600 mt-1">For defense, healthcare, financial systems</p>
+              </td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 font-medium">Moderate</td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3">
+                Consider Levels 3-5
+                <p className="text-sm text-gray-600 mt-1">For business applications with some sensitive data</p>
+              </td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 font-medium">Low</td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3">
+                All levels possible, including 6-7
+                <p className="text-sm text-gray-600 mt-1">For internal tools, prototypes, non-sensitive applications</p>
+              </td>
+            </tr>
 
-      <h2 className="text-2xl font-semibold mt-8 mb-4">2. Project Complexity</h2>
-      <div className="bg-gray-100 p-5 rounded-md mb-6">
-        <div className="grid grid-cols-1 gap-4">
-          <div className="bg-white p-4 rounded shadow-sm">
-            <h3 className="font-semibold mb-2 text-[#1A3234]">High (Novel algorithms, unique architecture)</h3>
-            <p>Prefer Levels 0-3 (Pure Code Forge to Code Accelerator)</p>
-            <p className="text-sm text-gray-600 mt-2">
-              When implementing custom algorithms or unique architectural patterns
-            </p>
-          </div>
-          <div className="bg-white p-4 rounded shadow-sm">
-            <h3 className="font-semibold mb-2 text-[#1A3234]">Moderate (Common patterns with customization)</h3>
-            <p>Consider Levels 2-5 (Specific Boost to Component Reactor)</p>
-            <p className="text-sm text-gray-600 mt-2">
-              For applications that follow standard patterns but require customization
-            </p>
-          </div>
-          <div className="bg-white p-4 rounded shadow-sm">
-            <h3 className="font-semibold mb-2 text-[#1A3234]">Low (Standard application types)</h3>
-            <p>Consider Levels 4-7 (Blueprint Amplifier to Prompt-to-Product)</p>
-            <p className="text-sm text-gray-600 mt-2">
-              For CRUD applications, dashboards, and standard web applications
-            </p>
-          </div>
-        </div>
-      </div>
+            {/* Project Complexity */}
+            <tr>
+              <td
+                className="border border-gray-300 dark:border-gray-700 bg-gray-100 dark:bg-gray-800 p-3 font-medium"
+                rowSpan={3}
+              >
+                Project Complexity
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 font-medium">
+                High (Novel algorithms, unique architecture)
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3">
+                Prefer Levels 0-3
+                <p className="text-sm text-gray-600 mt-1">
+                  When implementing custom algorithms or unique architectural patterns
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 font-medium">
+                Moderate (Common patterns with customization)
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3">
+                Consider Levels 2-5
+                <p className="text-sm text-gray-600 mt-1">
+                  For applications that follow standard patterns but require customization
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 font-medium">
+                Low (Standard application types)
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3">
+                Consider Levels 4-7
+                <p className="text-sm text-gray-600 mt-1">
+                  For CRUD applications, dashboards, and standard web applications
+                </p>
+              </td>
+            </tr>
 
-      <h2 className="text-2xl font-semibold mt-8 mb-4">3. Team AI Proficiency</h2>
-      <div className="bg-gray-100 p-5 rounded-md mb-6">
-        <div className="grid grid-cols-1 gap-4">
-          <div className="bg-white p-4 rounded shadow-sm">
-            <h3 className="font-semibold mb-2 text-[#1A3234]">Low</h3>
-            <p>Start with Levels 0-2 (Pure Code Forge to Specific Boost)</p>
-            <p className="text-sm text-gray-600 mt-2">For teams new to AI-assisted development</p>
-          </div>
-          <div className="bg-white p-4 rounded shadow-sm">
-            <h3 className="font-semibold mb-2 text-[#1A3234]">Moderate</h3>
-            <p>Consider Levels 3-5 (Code Accelerator to Component Reactor)</p>
-            <p className="text-sm text-gray-600 mt-2">For teams with some experience using AI tools</p>
-          </div>
-          <div className="bg-white p-4 rounded shadow-sm">
-            <h3 className="font-semibold mb-2 text-[#1A3234]">High</h3>
-            <p>All levels possible, including 6-7 (Visual Symphony to Prompt-to-Product)</p>
-            <p className="text-sm text-gray-600 mt-2">For teams experienced with AI tools and prompt engineering</p>
-          </div>
-        </div>
-      </div>
+            {/* Team AI Proficiency */}
+            <tr>
+              <td
+                className="border border-gray-300 dark:border-gray-700 bg-gray-100 dark:bg-gray-800 p-3 font-medium"
+                rowSpan={3}
+              >
+                Team AI Proficiency
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 font-medium">Low</td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3">
+                Start with Level 2, experiment with Levels 6-7
+                <p className="text-sm text-gray-600 mt-1">For teams new to AI-assisted development</p>
+              </td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 font-medium">Moderate</td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3">
+                Consider Levels 3-5
+                <p className="text-sm text-gray-600 mt-1">For teams with some experience using AI tools</p>
+              </td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 font-medium">High</td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3">
+                All levels possible, including 6-7
+                <p className="text-sm text-gray-600 mt-1">For teams experienced with AI tools and prompt engineering</p>
+              </td>
+            </tr>
 
-      <h2 className="text-2xl font-semibold mt-8 mb-4">4. Development Speed Priority</h2>
-      <div className="bg-gray-100 p-5 rounded-md mb-6">
-        <div className="grid grid-cols-1 gap-4">
-          <div className="bg-white p-4 rounded shadow-sm">
-            <h3 className="font-semibold mb-2 text-[#1A3234]">Low (Quality and precision paramount)</h3>
-            <p>Prefer Levels 0-3 (Pure Code Forge to Code Accelerator)</p>
-            <p className="text-sm text-gray-600 mt-2">When precision and quality are more important than speed</p>
-          </div>
-          <div className="bg-white p-4 rounded shadow-sm">
-            <h3 className="font-semibold mb-2 text-[#1A3234]">Moderate (Balanced approach)</h3>
-            <p>Consider Levels 3-5 (Code Accelerator to Component Reactor)</p>
-            <p className="text-sm text-gray-600 mt-2">When balancing quality and development speed</p>
-          </div>
-          <div className="bg-white p-4 rounded shadow-sm">
-            <h3 className="font-semibold mb-2 text-[#1A3234]">High (Rapid deployment critical)</h3>
-            <p>Consider Levels 5-7 (Component Reactor to Prompt-to-Product)</p>
-            <p className="text-sm text-gray-600 mt-2">When time-to-market is the primary concern</p>
-          </div>
-        </div>
-      </div>
+            {/* Development Speed Priority */}
+            <tr>
+              <td
+                className="border border-gray-300 dark:border-gray-700 bg-gray-100 dark:bg-gray-800 p-3 font-medium"
+                rowSpan={3}
+              >
+                Development Speed
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 font-medium">
+                Low (Quality and precision paramount)
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3">
+                Prefer Levels 0-3
+                <p className="text-sm text-gray-600 mt-1">When precision and quality are more important than speed</p>
+              </td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 font-medium">
+                Moderate (Balanced approach)
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3">
+                Consider Levels 3-5
+                <p className="text-sm text-gray-600 mt-1">When balancing quality and development speed</p>
+              </td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 font-medium">
+                High (Rapid deployment critical)
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3">
+                Consider Levels 5-7
+                <p className="text-sm text-gray-600 mt-1">When time-to-market is the primary concern</p>
+              </td>
+            </tr>
 
-      <h2 className="text-2xl font-semibold mt-8 mb-4">5. Long-term Maintenance Considerations</h2>
-      <div className="bg-gray-100 p-5 rounded-md mb-6">
-        <div className="grid grid-cols-1 gap-4">
-          <div className="bg-white p-4 rounded shadow-sm">
-            <h3 className="font-semibold mb-2 text-[#1A3234]">High (Long lifespan, ongoing development)</h3>
-            <p>Prefer Levels 0-4 (Pure Code Forge to Blueprint Amplifier)</p>
-            <p className="text-sm text-gray-600 mt-2">For systems expected to be maintained for many years</p>
-          </div>
-          <div className="bg-white p-4 rounded shadow-sm">
-            <h3 className="font-semibold mb-2 text-[#1A3234]">Moderate (Regular updates needed)</h3>
-            <p>Consider Levels 2-6 (Specific Boost to Visual Symphony)</p>
-            <p className="text-sm text-gray-600 mt-2">For applications requiring periodic updates and enhancements</p>
-          </div>
-          <div className="bg-white p-4 rounded shadow-sm">
-            <h3 className="font-semibold mb-2 text-[#1A3234]">Low (Short-term or disposable solution)</h3>
-            <p>All levels possible, including 7 (Prompt-to-Product)</p>
-            <p className="text-sm text-gray-600 mt-2">For prototypes, MVPs, or short-lived applications</p>
-          </div>
-        </div>
+            {/* Long-term Maintenance */}
+            <tr>
+              <td
+                className="border border-gray-300 dark:border-gray-700 bg-gray-100 dark:bg-gray-800 p-3 font-medium"
+                rowSpan={3}
+              >
+                Maintenance Lifecycle Expectations
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 font-medium">
+                High (Long lifespan, ongoing development)
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3">
+                Prefer Levels 0-4
+                <p className="text-sm text-gray-600 mt-1">For systems expected to be maintained for many years</p>
+              </td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 font-medium">
+                Moderate (Regular updates needed)
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3">
+                Consider Levels 2-6
+                <p className="text-sm text-gray-600 mt-1">
+                  For applications requiring periodic updates and enhancements
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 dark:border-gray-700 p-3 font-medium">
+                Low (Short-term or disposable solution)
+              </td>
+              <td className="border border-gray-300 dark:border-gray-700 p-3">
+                All levels possible, including 7
+                <p className="text-sm text-gray-600 mt-1">For prototypes, MVPs, or short-lived applications</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
 
       <h2 className="text-2xl font-semibold mt-8 mb-4">Integration Across Multiple Levels</h2>

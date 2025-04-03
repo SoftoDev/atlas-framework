@@ -10,10 +10,30 @@ import { ThemeScript } from "@/components/theme-script"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "ATLAS Framework | AI Tiered Levels for Agile Software",
+  title: "ATLAS | AI Tiered Levels for Agile Software",
   description:
     "A structured approach for determining the optimal level of AI assistance for software development projects",
-    generator: 'v0.dev'
+  openGraph: {
+    title: "ATLAS | AI Tiered Levels for Agile Software",
+    description:
+      "A structured approach for determining the optimal level of AI assistance for software development projects",
+    images: [
+      {
+        url: "/images/atlas-framework-og.png",
+        width: 1200,
+        height: 630,
+        alt: "ATLAS - AI Tiered Levels for Agile Software",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ATLAS | AI Tiered Levels for Agile Software",
+    description:
+      "A structured approach for determining the optimal level of AI assistance for software development projects",
+    images: ["/images/atlas-framework-og.png"],
+  },
 }
 
 export default function RootLayout({

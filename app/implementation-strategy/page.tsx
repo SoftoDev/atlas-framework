@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Implementation Strategy | ATLAS Framework",
+  title: "ATLAS | Implementation Strategy",
   description: "A phased approach to implementing AI assistance in your software development process",
 }
 

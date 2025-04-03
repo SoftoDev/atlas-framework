@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import ResourcesPage from "./resources-page"
 
 export const metadata: Metadata = {
-  title: "Resources | ATLAS Framework",
+  title: "ATLAS | Resources",
   description: "Helpful resources, tools, and references for implementing the ATLAS Framework",
 }
 
