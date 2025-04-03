@@ -10,6 +10,7 @@ import { ThemeScript } from "@/components/theme-script"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
+  metadataBase: new URL('https://atlas-framework.com'),
   title: "ATLAS | AI Tiered Levels for Agile Software",
   description:
     "A structured approach for determining the optimal level of AI assistance for software development projects",
@@ -46,7 +47,7 @@ export default function RootLayout({
       <head>
         <ThemeScript />
       </head>
-      <body className={`${inter.className} antialiased`}>
+      <body className={`${inter.className} antialiased`} suppressHydrationWarning>
         <ThemeProvider defaultTheme="system">
           <SidebarProvider>
             <AppSidebar />
@@ -62,6 +63,3 @@ export default function RootLayout({
   )
 }
 
-
-
-import './globals.css'

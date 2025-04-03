@@ -2,7 +2,7 @@
 ### AI Tiered Levels for Agile Software
 
 <div align="center">
-  <img src="public/images/atlas-framework-logo.png" alt="ATLAS Framework Logo" width="300" />
+  <img src="public/images/atlas-framework-logo-light.png" alt="ATLAS Framework Logo" width="300" />
   <br/><br/>
   <p><em>A structured approach for determining the optimal level of AI assistance for software development projects</em></p>
   <p><a href="https://atlas-framework.com/levels#level7" target="_blank"><img src="https://img.shields.io/badge/ATLAS_Framework-Level_7-B1FBD5" /></a></p>
