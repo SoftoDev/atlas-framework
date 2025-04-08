@@ -35,7 +35,7 @@ export default function AppSidebar() {
   }
 
   return (
-    <Sidebar className="bg-white border-r dark:bg-[#0A1A1B] [&>div[data-mobile=true]]:bg-white [&>div[data-mobile=true]]:dark:bg-[#0A1A1B]">
+    <Sidebar className="!bg-white border-r dark:!bg-[#0A1A1B] [&>div[data-mobile=true]]:!bg-white [&>div[data-mobile=true]]:dark:!bg-[#0A1A1B]">
       <SidebarHeader className="pb-2">
         <Link href="/" className="w-full flex justify-center" onClick={handleNavClick}>
           <div className="w-full flex items-center justify-center py-4">
@@ -130,4 +130,3 @@ export default function AppSidebar() {
     </Sidebar>
   )
 }
-

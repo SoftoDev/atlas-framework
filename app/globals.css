@@ -107,3 +107,11 @@
   }
 }
 
+/* Fix for mobile sidebar transparency */
+[data-mobile="true"] {
+  background-color: white !important;
+}
+
+.dark [data-mobile="true"] {
+  background-color: #0a1a1b !important;
+}
